@@ -1,0 +1,46 @@
+swagger: '2.0'
+info:
+  description: Starter server express nodejs with typescript
+  version: 1.0.0
+  title: node-typescript-express-starter
+basePath: /api
+securityDefinitions:
+  BearerAuth:
+    type: apiKey
+    name: Authorization
+    in: header
+    description: Use Bearer Token for authentication
+
+security:
+  - BearerAuth: []
+paths:
+  '/doctor':
+    get:
+      tags:
+        - doctor
+      summary: Check server status
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Consulta satisfactoria
+          schema:
+            $ref: '#/definitions/get-health-200'
+        '404':
+          description: Error.
+definitions:
+  get-health-200:
+    type: object
+    properties:
+      id:
+        type: number
+      name:
+        type: string
+      specialty_id:
+        type: number
+      bio:
+        type: string

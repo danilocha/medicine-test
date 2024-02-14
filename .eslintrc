@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-debugger": "error",
+    "no-var": "error",
+    "prettier/prettier":  ["error",{
+      "endOfLine": "auto"}
+    ]
+  }
+}

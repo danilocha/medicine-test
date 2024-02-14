@@ -1,0 +1,25 @@
+{
+  "server": {
+    "port": 3000,
+    "context": "/api",
+    "origins": "http://localhost:3000,http://localhost:3001,http://localhost:8080",
+    "originsReadOnly": "http://localhost:3001",
+    "headersAllowed": "Content-Type,Authorization,Set-Cookie,Access-Control-Allow-Origin,Cache-Control,Pragma",
+    "methodsAllowed": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS",
+    "corsCredentials": "false",
+    "corsEnabled": "true",
+    "tz": "America/Colombia/Bogota",
+    "showLogInterceptor": "false",
+    "enabledLogs": "true"
+  },
+  "swagger": {
+    "path": "api-docs",
+    "enabled": "true"
+  },
+  "params": {
+  },
+  "auth":{
+    "audience": "https://dev-qivvkm56ltlpdw8n.us.auth0.com/api/v2/",
+    "issuerBaseURL": "https://dev-qivvkm56ltlpdw8n.us.auth0.com/"
+  }
+}
