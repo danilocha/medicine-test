@@ -27,7 +27,6 @@
 - Node.js v10.15.3 or higher ([Download](https://nodejs.org/es/download/))
 - NPM v6.4.1 or higher
 - Typescript
-- [Mock Json Server](https://www.npmjs.com/package/mock-json-server)
 
 <a name="install-dependencies"></a>
 
@@ -37,7 +36,7 @@ Cuando tenemos los requisitos básicos, clonamos el repositorio, vamos a la carp
 dependencias.
 
 ```
- npm install | npm install --force
+npm install --force
 ```
 
 <a name="configurations"></a>
