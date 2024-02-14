@@ -1,9 +1,4 @@
 <p align="center">
-    <img alt="node-typescript-express-starter" width="100%" height="auto" src="https://socialify.git.ci/rudemex/node-typescript-express-starter/image?font=Inter&language=0&pattern=Signal&theme=Light&logo=https://miro.medium.com/max/2400/0*a6oSE8C5z6SjVtjj.png" />
-</p>
-
-
-<p align="center">
     <img src="https://img.shields.io/static/v1.svg?label=Node&message=v10.15.3&labelColor=339933&color=757575&logoColor=FFFFFF&logo=node.js" alt="Node.js website"/>
     <img src="https://img.shields.io/static/v1.svg?label=Npm&message=v6.4.1&labelColor=CB3837&logoColor=FFFFFF&color=757575&logo=npm" alt="Npm website"/>
     <img src="https://img.shields.io/static/v1.svg?label=Express&message=v4.17.1&labelColor=444&logoColor=FFFFFF&color=757575&logo=Express" alt="ExpressJS website"/>
